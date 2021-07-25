@@ -3,6 +3,16 @@ ol {
   list-style-type: none;
 }
 
+ul li {
+  display: inline;
+}
+
+ol li {
+  display: inline-block;
+  margin: 15px;
+  padding: 15px;
+}
+
 .para {
   display: block;
   margin-top: 16px;
@@ -15,6 +25,14 @@ ol {
   border: 1px solid red;
 }
 
-ul li {
-  display: inline;
+.para-large {
+  display: block;
+  margin: 25px;
+  padding: 10px;
+}
+
+.para-large span {
+  padding: 5px;
+  margin: 5px;
+  border: 2px dotted green;
 }
