@@ -119,6 +119,19 @@ body {
   font-family: 'Roboto';
 }
 
+h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  color: red;
+  font-size: 35px;
+}
+
+h2 {
+  font-family: 'Julius Sans One', sans-serif;
+  color: purple;
+  text-decoration: underline;
+  font-size: 32px;
+}
+
 h3 {
   font-family: 'Roboto', sans-serif;
   color: green;
@@ -128,4 +141,13 @@ h3 {
 ol a {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+}
+
+ul li {
+  font-family: 'Julius Sans One', sans-serif;
+  line-height: 25px;
+}
+
+p {
+  line-height: 23px;
 }
