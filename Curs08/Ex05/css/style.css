@@ -12,6 +12,10 @@
   padding: 5px;
 }
 
+.nav-bottom a {
+  color: brown;
+}
+
 .nav-bottom {
   position: absolute;
   right: 0;
