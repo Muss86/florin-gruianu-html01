@@ -96,34 +96,36 @@
               Search
             </button>
           </form>
-
-          <ul>
-            <li>
-              <a
-                href=""
-                title="My account"
-              ><i class="far fa-user"></i>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href=""
-                title="Favorite"
-              ><i class="far fa-heart"></i>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href=""
-                title="Cart"
-              ><i class="fas fa-shopping-cart"></i>
-              </a>
-            </li>
-          </ul>
         </div>
         <!-- ./search-controls -->
+
+        <ul class="user-control">
+          <li>
+            <a
+              href=""
+              title="My account"
+            ><i class="far fa-user"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href=""
+              title="Favorite"
+            ><i class="far fa-heart"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href=""
+              title="Cart"
+            ><i class="fas fa-shopping-cart"></i>
+            </a>
+          </li>
+        </ul>
+        <!-- user-control -->
+
       </section>
       <!-- ./header-controls -->
     </div>
@@ -533,35 +535,42 @@
     <!-- ./catalog-preview -->
 
     <section class="home-marketing">
-      <header class="home-marketing-details">
-        <h1>
-          <span>Watches for entrepreneurs</span>
-        </h1>
-      </header>
+      <div class="home-marketing-generic">
+        <header class="home-marketing-details">
+          <h1>
+            <span>Watches for entrepreneurs</span>
+          </h1>
+        </header>
 
-      <!-- aici este bine clasa acestui header si main ? Cum sa pun acel aside ?  -->
+        <main class="home-marketing-details">
+          <p>
+            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
+            will give you a complete account of the system, and expound the actual teachings of the great explorer of
+            the
+            truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because.
+          </p>
 
-      <main class="home-marketing-details">
-        <p>
-          But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
-          will give you a complete account of the system, and expound the actual teachings of the great explorer of the
-          truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because.
-        </p>
+          <p>
+            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
+            will give you a complete account of the system, and expound the actual teachings of the great explorer of
+            the
+            truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because.
+          </p>
+        </main>
+        <!-- ./home-marketing-details -->
 
-        <p>
-          But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
-          will give you a complete account of the system, and expound the actual teachings of the great explorer of the
-          truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because.
-        </p>
+      </div>
+      <!-- home-marketing-generic -->
 
+      <aside class="home-marketing-picture">
         <picture class="product-style">
           <img
             src="./images/watch design.png"
             alt="Watch design"
           >
         </picture>
-      </main>
-      <!-- ./home-marketing-details -->
+      </aside>
+      <!-- home-marketing-picture -->
 
     </section>
     <!-- ./home-marketing -->
@@ -941,28 +950,24 @@
 
   <footer class="footer">
     <div class="footer-contact">
-
-      <p>
-        call us
-        <!--este bine ca am pus aici un <br> ?-->
-        <a
-          href="tel:+44(0)1023456789"
-          title="Call us"
-        >+44 (0)10 2345 6789
-        </a>
-      </p>
-
-      <a
-        href="mailto:office@monochrome.com"
-        title="Email us"
-      >email customer care
-      </a>
-
-      <a
-        href=""
-        title="Mobile version"
-      >see mobile version
-      </a>
+      <ul>
+        <li>call us</li>
+        <li>
+          <a
+            href="tel:+44(0)1023456789"
+            title="Call us"
+          >+44 (0)10 2345 6789
+          </a>
+        </li>
+        <li>
+          <a
+            href="mailto:office@monochrome.com"
+            title="Email us"
+          >email customer care
+          </a>
+        </li>
+        <li>see mobile version</li>
+      </ul>
     </div>
     <!-- ./footer-contact -->
 
