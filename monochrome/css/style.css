@@ -356,7 +356,32 @@ body {
   margin: 0 auto;
 }
 
-.header-top .header-contact {
+.header {
+  background: #2b2b2b url(../images/banner.png) no-repeat center top;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  margin: 30px auto;
+}
+
+.header-inner .header-contact {
   float: left;
-  margin-top: 40px;
+  margin: 6px 0 0 150px;
+}
+
+.header-inner .header-contact a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-inner .header-contact ul {
+  margin: 0;
+}
+
+.header-inner .header-contact li {
+  display: inline-block;
+  font-size: 16px;
+
+  margin: 0 25px;
+  padding: 0;
 }
