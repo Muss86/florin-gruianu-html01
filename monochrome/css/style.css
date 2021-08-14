@@ -361,11 +361,16 @@ body {
   height: 500px;
   width: 100%;
   background-size: cover;
-  margin: 30px auto;
+  margin: 25px auto;
+}
+.header-inner .header-top {
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-inner .header-contact {
-  float: left;
+  display: inline-flex;
+  justify-content: flex-start;
   margin: 6px 0 0 150px;
 }
 
@@ -381,7 +386,33 @@ body {
 .header-inner .header-contact li {
   display: inline-block;
   font-size: 16px;
-
   margin: 0 25px;
-  padding: 0;
+}
+
+.header-inner .header-controls {
+  display: inline-flex;
+  justify-content: flex-end;
+  margin: 6px 150px 0 0;
+}
+
+.header-inner .header-controls div {
+  margin: 0 25px;
+}
+
+.header-inner .header-controls ul {
+  display: flex;
+}
+
+.header-inner .header-controls ul a {
+  margin: 0 25px;
+}
+
+.header-inner .header-bottom {
+  background-color: #2b2b2b;
+  background-size: cover;
+}
+
+.header-inner .header-bottom nav {
+  display: flex;
+  justify-content: space-between;
 }
