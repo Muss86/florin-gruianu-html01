@@ -416,3 +416,55 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+/* code needed */
+
+.footer {
+  background-size: cover;
+  background-color: #8e8e8e;
+}
+
+.footer .footer-inner {
+  display: flex;
+  justify-content: space-between;
+  line-height: 37px;
+}
+
+.footer-inner .footer-contact {
+  margin: 40px 0;
+}
+
+.footer-inner .footer-contact a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+.footer-inner .footer-contact li:last-child {
+  text-decoration: underline;
+}
+
+.footer .footer-inner .footer-nav {
+  display: flex;
+}
+
+.footer-inner .footer-nav {
+  margin: 40px 0;
+}
+
+.footer-inner .footer-nav a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+.footer-inner .footer-nav-about {
+  margin: 40px 0;
+}
+
+.footer-inner .footer-nav-about a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+.footer-inner .footer-social li {
+  display: inline-block;
+}
