@@ -407,21 +407,40 @@ body {
   margin: 0 25px;
 }
 
+/* aici am impins cu un div gol sau trebuia sa imping cu containerul de sus? */
+
+.header-inner .header-empty {
+  display: block;
+  margin: 450px 0;
+}
+
 .header-inner .header-bottom {
   background-color: #2b2b2b;
   background-size: cover;
+  height: 52px;
+  display: flex;
+  align-items: center;
 }
 
-.header-inner .header-bottom nav {
+.header-inner .header-bottom nav ul {
   display: flex;
   justify-content: space-between;
 }
 
-/* code needed */
+.header-inner .header-bottom ul a {
+  text-decoration: none;
+  color: #e8e8e8;
+  font-size: 19px;
+  font-family: 'Playfair Display', sans-serif;
+  text-transform: uppercase;
+  line-height: 22px;
+}
+
+/* ---footer--- */
 
 .footer {
   background-size: cover;
-  background-color: #8e8e8e;
+  background-color: #e8e8e8;
 }
 
 .footer .footer-inner {
@@ -431,7 +450,7 @@ body {
 }
 
 .footer-inner .footer-contact {
-  margin: 40px 0;
+  margin: 40px 0 60px 0;
 }
 
 .footer-inner .footer-contact a {
@@ -448,7 +467,7 @@ body {
 }
 
 .footer-inner .footer-nav {
-  margin: 40px 0;
+  margin: 40px 0 60px 0;
 }
 
 .footer-inner .footer-nav a {
@@ -457,7 +476,7 @@ body {
 }
 
 .footer-inner .footer-nav-about {
-  margin: 40px 0;
+  margin: 40px 0 60px 0;
 }
 
 .footer-inner .footer-nav-about a {
@@ -467,11 +486,7 @@ body {
 
 .footer-inner .footer-connect {
   display: block;
-  margin: 40px 0;
-}
-
-.footer-inner .footer-connect .footer-newsletter {
-  line-height: 37px;
+  margin: 40px 0 60px 0;
 }
 
 .footer-inner .footer-newsletter label {
@@ -483,12 +498,24 @@ body {
 }
 
 .footer-inner .footer-newsletter > button {
-  background-color: #8e8e8e;
+  background-color: #e8e8e8;
   border: 1px solid #2b2b2b;
   font-size: 12px;
 }
 
 .footer-inner .footer-social li {
   display: inline-block;
-  margin-top: 25px;
+  margin-top: 40px;
+}
+
+.footer-inner .footer-social li a {
+  color: #2b2b2b;
+  text-decoration: none;
+  margin: 0 15px 0 0;
+}
+
+/* --main-- */
+
+.content .header {
+  text-align: center;
 }
