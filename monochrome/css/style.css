@@ -465,6 +465,30 @@ body {
   color: #2b2b2b;
 }
 
+.footer-inner .footer-connect {
+  display: block;
+  margin: 40px 0;
+}
+
+.footer-inner .footer-connect .footer-newsletter {
+  line-height: 37px;
+}
+
+.footer-inner .footer-newsletter label {
+  display: block;
+}
+
+.footer-inner .footer-newsletter input {
+  display: block;
+}
+
+.footer-inner .footer-newsletter > button {
+  background-color: #8e8e8e;
+  border: 1px solid #2b2b2b;
+  font-size: 12px;
+}
+
 .footer-inner .footer-social li {
   display: inline-block;
+  margin-top: 25px;
 }
