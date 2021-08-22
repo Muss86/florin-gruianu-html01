@@ -405,6 +405,7 @@ body {
 
 .header-inner .header-controls ul a {
   margin: 0 25px;
+  color: #2b2b2b;
 }
 
 /* aici am impins cu un div gol sau trebuia sa imping cu containerul de sus? */
@@ -431,7 +432,7 @@ body {
   text-decoration: none;
   color: #e8e8e8;
   font-size: 19px;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Playfair Display', sans-serif; /*ce ai vrut sa spui cu Playfair is serif?*/
   text-transform: uppercase;
   line-height: 22px;
   border-radius: 25px;
@@ -566,7 +567,7 @@ body {
   margin-bottom: 70px;
 }
 
-/* .content .product-tiles-container product-tile-image {
+/* .content .product-tiles-container {
   display: flex;
   position: relative;
   color: #2b2b2b;
@@ -637,7 +638,7 @@ body {
   margin-bottom: 40px;
 }
 
-.catalog-preview .product-tile-controls a {
+.catalog-preview .preview-controls a {
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
   font-weight: normal;
@@ -651,7 +652,7 @@ body {
   transition: background-color 0.2s linear, color 0.5s linear;
 }
 
-.catalog-preview .product-tile-controls a:hover {
+.catalog-preview .preview-controls a:hover {
   background-color: #2b2b2b;
   color: #e8e8e8;
 }
