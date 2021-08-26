@@ -546,11 +546,15 @@ body {
   padding-bottom: 120px;
 }
 
+/* .content .product-tiles-container {
+  width: 23.568281%;
+} */
+
 .content .product-tiles {
   width: 23.568281%;
 }
 
-.content .product-tiles .product-tile-image {
+.content .product-tiles .product-tile-image img {
   width: 100%;
 }
 
