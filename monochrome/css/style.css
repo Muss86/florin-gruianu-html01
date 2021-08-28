@@ -345,7 +345,7 @@ table {
 }
 
 body {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 22px;
   color: #2b2b2b;
 }
@@ -362,6 +362,7 @@ body {
   width: 100%;
   background-size: cover;
   margin: 20px 0 60px 0;
+  position: relative;
 }
 .header-inner .header-top {
   display: flex;
@@ -399,6 +400,21 @@ body {
   margin: 0 25px;
 }
 
+.header-inner .search-controls form {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 1px solid black;
+}
+
+.header-inner .search-controls form input {
+  border: none;
+}
+
+.header-inner .search-controls form button {
+  border: none;
+  background-color: #fff;
+}
+
 .header-inner .header-controls ul {
   display: flex;
 }
@@ -410,10 +426,10 @@ body {
 
 /* aici am impins cu un div gol sau trebuia sa imping cu containerul de sus? */
 
-.header-inner .header-empty {
+/* .header-inner .header-empty {
   display: block;
   margin: 416px 0;
-}
+} */
 
 .header-inner .header-bottom {
   background-color: #2b2b2b;
@@ -421,6 +437,9 @@ body {
   height: 52px;
   display: flex;
   align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: -30px;
 }
 
 .header-inner .header-bottom nav ul {
@@ -432,7 +451,7 @@ body {
   text-decoration: none;
   color: #e8e8e8;
   font-size: 19px;
-  font-family: 'Playfair Display', sans-serif; /*ce ai vrut sa spui cu Playfair is serif?*/
+  font-family: 'Playfair Display', serif;
   text-transform: uppercase;
   line-height: 22px;
   border-radius: 25px;
@@ -460,7 +479,7 @@ body {
 }
 
 .footer-inner .footer-contact {
-  margin: 40px 0 60px 0;
+  margin: 40px 20px 60px 0;
 }
 
 .footer-inner .footer-contact a {
@@ -477,7 +496,7 @@ body {
 }
 
 .footer-inner .footer-nav {
-  margin: 40px 0 60px 0;
+  margin: 40px 20px 60px 0;
 }
 
 .footer-inner .footer-nav a {
@@ -486,7 +505,7 @@ body {
 }
 
 .footer-inner .footer-nav-about {
-  margin: 40px 0 60px 0;
+  margin: 40px 20px 60px 0;
 }
 
 .footer-inner .footer-nav-about a {
@@ -511,6 +530,9 @@ body {
   background-color: #e8e8e8;
   border: 1px solid #2b2b2b;
   font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-weight: normal;
 }
 
 .footer-inner .footer-social li {
