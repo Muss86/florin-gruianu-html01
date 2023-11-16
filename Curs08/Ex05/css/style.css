@@ -29,10 +29,20 @@
   position: absolute;
   background-color: gray;
   border: 1px solid red;
+  top: -5px;
 }
 
 .sup {
   position: relative;
   top: -5px;
   font-size: 75%;
+}
+
+.section-title {
+  position: sticky;
+  text-align: center;
+  background-color: green;
+  color: white;
+  padding: 8px auto;
+  top: 8px;
 }
