@@ -16,7 +16,7 @@
 }
 
 /* body h3:nth-of-type(4n) */
-body h3:nth-of-type(4) {
+body h3:nth-of-type(4n) {
   color: green;
 }
 
@@ -41,9 +41,9 @@ li:nth-child(3) {
   color: purple;
 }
 
-/* ul li ul li:nth-child(3) {
+ ul li ul li:nth-child(3) {
   color: purple;
-}*/
+}
 
 p:nth-of-type(2n + 1) {
   background: brown;
@@ -55,8 +55,8 @@ body > ul > li:nth-of-type(2n + 1) {
   padding: 8px;
 }
 
-/*
+
 body > ul:nth-of-type(3n) {
   border: 1px solid black;
   padding: 8px;
- */
+}

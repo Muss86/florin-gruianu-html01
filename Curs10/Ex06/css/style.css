@@ -15,7 +15,7 @@ p i {
 }
 
 p:hover i {
-  left: 2px;
+  right: -2px;
   top: -2px;
 }
 
